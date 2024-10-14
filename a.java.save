@@ -1,0 +1,30 @@
+import java.util.*;
+public class Calculator {
+	public static double Add(double a , double b){
+		return a+b;
+	}
+	public static double Subtraction(double a, double b){
+		return a-b;
+	}
+	public static double Multiplication(double a, double b){
+		return a*b;
+	}
+	public static double division(double a, double b){
+		return a/b;
+	}
+
+
+	public static void main(String[] args) {
+	Scanner sc = new Scanner(System.in);
+	
+	double a = sc.nextInt();
+	double b = sc.nextInt();
+	
+	String op = sc.nextLine();
+	char operator = op.charAt(0);
+	
+	
+
+
+	
+
